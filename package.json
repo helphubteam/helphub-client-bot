@@ -1,0 +1,25 @@
+{
+  "name": "helphub-client-bot",
+  "version": "1.0.0",
+  "description": "Helphub Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxkuz/helphub-client-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxkuz/helphub-client-bot/issues"
+  },
+  "homepage": "https://github.com/lxkuz/helphub-client-bot#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "querystring": "^0.2.1",
+    "telegraf": "^4.4.1"
+  }
+}
