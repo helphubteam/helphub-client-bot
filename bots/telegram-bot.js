@@ -3,6 +3,7 @@ import BotInterface from "./bot-interface.js"
 
 class TelegramBot extends BotInterface {
   constructor() {
+    super()
     this.bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN)
     // Enable graceful stop
     process.once('SIGINT', () => this.stop('SIGINT'))
