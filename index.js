@@ -1,5 +1,6 @@
-require('dotenv').config()
-const BotFactory = require("./bots/bot-factory")
+import dotenv from 'dotenv'
+dotenv.config()
+import BotFactory from "./bots/bot-factory.js"
 (function() {
   
 

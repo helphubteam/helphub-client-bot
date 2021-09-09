@@ -24,3 +24,4 @@ class BotInterface {
     throw new NotImplementedError()
   }
 }
+export default BotInterface

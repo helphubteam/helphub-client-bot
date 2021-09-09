@@ -1,5 +1,5 @@
-const { Telegraf } = require('telegraf')
-const BotInterface = require("./bots/bot-interface")
+import { Telegraf } from 'telegraf'
+import BotInterface from "./bot-interface.js"
 
 class TelegramBot extends BotInterface {
   constructor() {

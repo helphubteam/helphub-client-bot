@@ -1,8 +1,8 @@
-const TelegramBot = require("./bots/telegram-bot")
+import TelegramBot from "./telegram-bot.js"
 
 const BotFactory = {
   build: function() {
     return new TelegramBot()
   }
 }
-export default BotFactory;
+export default BotFactory
