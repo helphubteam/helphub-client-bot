@@ -1,4 +1,4 @@
-import winston from 'winston'
+import logger from "../logger.js"
 import BotFactory from "../bots/bot-factory.js"
 
 const StartUseCase = {
@@ -6,7 +6,7 @@ const StartUseCase = {
     const bot = BotFactory.build()
     bot.start((ctx) => ctx.reply('Welcome to Helphub'))
     bot.launch()
-    console.log('Helphub Bot Started')
+    logger.info('Helphub Bot Started')
   }
 };
 
