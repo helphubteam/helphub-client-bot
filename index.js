@@ -1,9 +1,7 @@
 import dotenv from 'dotenv'
 dotenv.config()
-import BotFactory from "./bots/bot-factory.js"
-(function() {
-  
+import StartUseCase from './use_cases/start.js'
 
-  const bot = BotFactory.build()
-  bot.start()
+(function() {
+  StartUseCase.begin()
 })()
