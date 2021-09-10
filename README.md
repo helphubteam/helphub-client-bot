@@ -3,8 +3,8 @@ Node JS-based implementation of Helphub Telegram bot
 
 ## Installation
 
-* `npm install # Node.js v14.17.3`
+* `npm install # Node.js v16.9.0`
 * `cp .env.sample .env`
 * Get Telegram API token from @BotFather and setup it into .env
-* `node index.js # to start bot`
+* `node index.js`
 * Start messaging to your telegram bot
